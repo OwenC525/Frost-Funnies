@@ -20,12 +20,12 @@
         <link rel="stylesheet" href="style.css">
     </head>
 
-    <body>
+    <body class="img-fluid">
 
         <!-- header section-->
 
 
-        <header class="bg-primary text-white text-center py-2">
+        <header class="text-white text-center py-2">
             <div class="container">
                 <h1 class="display-4">Madlibs</h1>
                 <p class="lead">Try out the Madlib!</p>
@@ -37,12 +37,18 @@
         <main class="container my-4">
             <div class="text-center" id="madLibOutput">
                 <!-- MadLib will go here-->
+
+                <button class="btn btn1 btn-lg btn-block" id="generateMadLib" onclick="generateMadLib()">
+                    Click Me!
+                    </button>
+                  <p class="cooltext border1" id="madLibOutput"></p>
+
             </div>
         </main>
 
             <!-- Footer Section-->
 
-        <footer class="bg-primary text-white text-center py-2 fixed-bottom">
+        <footer class="text-white text-center py-2 fixed-bottom">
             <div class="container">
                 <p>&copy; 2023 WDPP Level 2</p>
                 <p>Designed by Chiu</p>
