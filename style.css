@@ -22,6 +22,11 @@ footer {
     width: 100%;
 }
 
+.text {
+    font-family: fantasy;
+}
+
+
 .img-fluid {
     background-color: rgb(37, 136, 37);
     max-width: 100%;
@@ -35,6 +40,7 @@ footer {
 #madLibOutput {
     padding: 20px;
     text-align: center;
+    font-family: fantasy;
 }
 
 .btn1 {
